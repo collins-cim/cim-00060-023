@@ -1,0 +1,58 @@
+body{
+    background: url('background.jpg') no-repeat center center/cover;
+    /*login form*/
+}
+form{
+display: flex;
+flex-direction: column;
+height: 500px;
+width: 400px;
+border: 1px solid black;
+/*border: 1px solid balck; */
+align-items: center;
+margin: auto;
+margin-top: 500px;
+background-color:rgba(0, 0, 0, 0.5) ;
+box-shadow: inset -5px -5px rgba(0, 0, 0, 0.5);
+border-radius: 25px;
+} 
+form h1{
+    color: white;
+    font-size: 2rem;
+    border-bottom: 4px solid rgba(225, 225, 225, 0.5);
+    margin: 50px;
+}
+button{
+    padding: 12px;
+    margin: 10px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1 rem;
+}
+.box{
+    padding: 9px;
+    margin: 10px;
+    width: 65%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    background-color:  rgba(20, 3, 3, 0.5);
+    box-shadow: inset -3px -3px rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1 rem;
+}
+
+button:hover{
+cursor: pointer;
+background-color: rgba(225, 225, 225, 0.1);
+color: aqua;
+}
+::placeholder{
+    color: white;
+   opacity:0.7 ; 
+}
