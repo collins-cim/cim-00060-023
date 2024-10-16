@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+      .login {
+            border: 3px solid rgb(26, 211, 32);
+            max-width: max-content;
+            padding: 20px 30px;
+            margin: 10px auto;
+        }
+        input[type="button"], input[type="submit"], input[type="reset"] {
+            display: block;
+            background-color: blanchedalmond;
+            margin: 10px auto;
+</style>
+</head>
+<body>
+    <div class="login">
+        <form>
+            <label for="email"> Enter Your Email: </label>
+            <input type="email" name="email" id="email" />
+            <br/>
+
+            <label for="password"> Enter Your Password: </label>
+            <input type="password" name="password" id="password" />
+            <br/>
+
+            <label>Choose  the gender</label><br/>
+            <input type="radio" name="male" id="male" value="male">
+            <label for="male">male</label><br>
+            <input type="radio" name="female" id="female" value="female">
+            <label for="female">Female</label><br>
+
+            <br>
+            <label>Choose Your Intrest</label><br/>
+            <input type="checkbox" name="writing" id="writing" value="writing">
+            <label for="writing">borrow</label><br>
+            <input type="checkbox" name="reading" id="reading" value="reading">
+            <label for="reading">return</label><br>
+
+            <label for="topics">Your Favorite topics:</label>
+            <select id="topics" name="topics" multiple>
+                <select id="topics" name="topics" multiple>
+                    <option value="coding">coding</option>
+                    <option value="calculus">calculus</option>
+                    <option value="algebra">algebra</option>
+                    <option value="discrete">discrete</option><br>
+
+            <br/>
+            <label for="dropdown">Choose Your Preference</label>
+            <select id="dropdown" name=" dropdown">
+                <option value="reading">reading</option>
+                <option value="borrow">borrow</option>
+                <option value="return">return</option>
+                </select><br>
+
+                <br/>
+                <label for="search">Search</label>
+                <input type="text" id="search" name="search" placeholder="search.."/><br>
+
+                <br/>
+                <label for="url">Enter a URL</label>
+                <input type="url" id="url" name="url" placeholder="https://www.google.com/search?q=library+hours&oq=libr&gs_lcrp=EgZjaHJvbWUqBwgCEAAYjwIyBggAEEUYOTIHCAEQABiPAjIHCAIQABiPAjIHCAMQABiPAtIBCDk3NzRqMGo3qAIIsAIB&sourceid=chrome&ie=UTF-8"/>
+                <br/>
+                <input type="reset" value="reset"/>
+                <input type="submit" value="submit"/>
+                <input type="button" value="LOGIN"
+            </form>
+        </div>
+</body>
+</html>
